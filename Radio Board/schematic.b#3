@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -366,127 +366,6 @@
 </package3d>
 </packages3d>
 </library>
-<library name="XBP9X-DMRS-001">
-<packages>
-<package name="MODULE_XBP9X-DMRS-001">
-<wire x1="11.034" y1="-16.891" x2="11.034" y2="16.891" width="0.127" layer="51"/>
-<wire x1="11.034" y1="16.891" x2="-11.034" y2="16.891" width="0.127" layer="51"/>
-<wire x1="-11.034" y1="16.891" x2="-11.034" y2="-16.891" width="0.127" layer="51"/>
-<wire x1="-11.034" y1="-16.891" x2="11.034" y2="-16.891" width="0.127" layer="51"/>
-<wire x1="-8.3" y1="-16.891" x2="-11.034" y2="-16.891" width="0.127" layer="21"/>
-<wire x1="-11.034" y1="-16.891" x2="-11.034" y2="-16.055" width="0.127" layer="21"/>
-<wire x1="8.3" y1="-16.891" x2="11.034" y2="-16.891" width="0.127" layer="21"/>
-<wire x1="11.034" y1="-16.891" x2="11.034" y2="-16.055" width="0.127" layer="21"/>
-<wire x1="-11.034" y1="10.3" x2="-11.034" y2="16.891" width="0.127" layer="21"/>
-<wire x1="-11.034" y1="16.891" x2="11.034" y2="16.891" width="0.127" layer="21"/>
-<wire x1="11.034" y1="16.891" x2="11.034" y2="16.3" width="0.127" layer="21"/>
-<wire x1="-12.59" y1="-18.405" x2="12.59" y2="-18.405" width="0.05" layer="39"/>
-<wire x1="12.59" y1="-18.405" x2="12.59" y2="17.141" width="0.05" layer="39"/>
-<wire x1="12.59" y1="17.141" x2="-12.59" y2="17.141" width="0.05" layer="39"/>
-<wire x1="-12.59" y1="17.141" x2="-12.59" y2="-18.405" width="0.05" layer="39"/>
-<circle x="-13.61" y="9.195" radius="0.1" width="0.2" layer="21"/>
-<circle x="-13.61" y="9.195" radius="0.1" width="0.2" layer="51"/>
-<text x="-12.16" y="17.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="-12.41" y="-18.81" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-5.799" y1="5.238" x2="-3.829" y2="7.208" layer="31"/>
-<polygon width="0.01" layer="43">
-<vertex x="-11.034" y="9.9"/>
-<vertex x="-9.48" y="9.9"/>
-<vertex x="-9.48" y="7.6"/>
-<vertex x="-3.4" y="7.6"/>
-<vertex x="-3.4" y="4.8"/>
-<vertex x="-6.2" y="4.8"/>
-<vertex x="-6.2" y="7.6"/>
-<vertex x="-9.48" y="7.6"/>
-<vertex x="-9.48" y="-15.6"/>
-<vertex x="-11.034" y="-15.6"/>
-<vertex x="-11.034" y="-16.9"/>
-<vertex x="-7.662" y="-16.9"/>
-<vertex x="-7.662" y="-15.295"/>
-<vertex x="7.838" y="-15.295"/>
-<vertex x="7.838" y="-16.9"/>
-<vertex x="11.034" y="-16.9"/>
-<vertex x="11.034" y="-15.6"/>
-<vertex x="9.48" y="-15.6"/>
-<vertex x="9.48" y="15.9"/>
-<vertex x="11.034" y="15.9"/>
-<vertex x="11.034" y="16.891"/>
-<vertex x="-11.034" y="16.891"/>
-</polygon>
-<polygon width="0.01" layer="41">
-<vertex x="-11.034" y="9.9"/>
-<vertex x="-9.48" y="9.9"/>
-<vertex x="-9.48" y="7.6"/>
-<vertex x="-3.4" y="7.6"/>
-<vertex x="-3.4" y="4.8"/>
-<vertex x="-6.2" y="4.8"/>
-<vertex x="-6.2" y="7.6"/>
-<vertex x="-9.48" y="7.6"/>
-<vertex x="-9.48" y="-15.6"/>
-<vertex x="-11.034" y="-15.6"/>
-<vertex x="-11.034" y="-16.9"/>
-<vertex x="-7.662" y="-16.9"/>
-<vertex x="-7.662" y="-15.295"/>
-<vertex x="7.838" y="-15.295"/>
-<vertex x="7.838" y="-16.9"/>
-<vertex x="11.034" y="-16.9"/>
-<vertex x="11.034" y="-15.6"/>
-<vertex x="9.48" y="-15.6"/>
-<vertex x="9.48" y="15.9"/>
-<vertex x="11.034" y="15.9"/>
-<vertex x="11.034" y="16.891"/>
-<vertex x="-11.034" y="16.891"/>
-</polygon>
-<smd name="1" x="-10.91" y="9.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="2" x="-10.91" y="7.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="3" x="-10.91" y="5.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="4" x="-10.91" y="3.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="5" x="-10.91" y="1.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="6" x="-10.91" y="-0.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="7" x="-10.91" y="-2.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="8" x="-10.91" y="-4.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="9" x="-10.91" y="-6.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="10" x="-10.91" y="-8.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="11" x="-10.91" y="-10.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="12" x="-10.91" y="-12.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="13" x="-10.91" y="-14.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="14" x="-6.912" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="15" x="-4.912" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="16" x="-2.912" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="17" x="-0.912" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="18" x="1.088" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="19" x="3.088" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="20" x="5.088" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="21" x="7.088" y="-16.725" dx="2.86" dy="1.5" layer="1" rot="R270"/>
-<smd name="22" x="10.91" y="-14.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="23" x="10.91" y="-12.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="24" x="10.91" y="-10.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="25" x="10.91" y="-8.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="26" x="10.91" y="-6.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="27" x="10.91" y="-4.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="28" x="10.91" y="-2.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="29" x="10.91" y="-0.805" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="30" x="10.91" y="1.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="31" x="10.91" y="3.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="32" x="10.91" y="5.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="33" x="10.91" y="7.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="34" x="10.91" y="9.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="35" x="10.91" y="11.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="36" x="10.91" y="13.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="37" x="10.91" y="15.195" dx="2.86" dy="1.5" layer="1" rot="R180"/>
-<smd name="38" x="-4.814" y="6.223" dx="2.794" dy="2.794" layer="1" cream="no"/>
-<pad name="V38_1" x="-5.714" y="7.123" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_2" x="-4.814" y="7.123" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_3" x="-3.914" y="7.123" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_4" x="-5.714" y="6.223" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_5" x="-4.814" y="6.223" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_6" x="-3.914" y="6.223" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_7" x="-5.714" y="5.323" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_8" x="-4.814" y="5.323" drill="0.3" diameter="0.508" stop="no"/>
-<pad name="V38_9" x="-3.914" y="5.323" drill="0.3" diameter="0.508" stop="no"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -688,50 +567,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.1712" y="4.5238" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="10.175" y="4.6" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="24.13" y="41.91" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Digi International" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="XBP9X-DMRS-001" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.97" y="59.8" size="1.27" layer="25"/>
-<attribute name="PACKAGE" value="Module Digi International" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.72" y="23.1" size="1.27" layer="27" align="top-left"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="JP1" pad="4"/>
-<contactref element="U1" pad="13"/>
-<contactref element="U1" pad="1"/>
-<contactref element="U1" pad="V38_6"/>
-<contactref element="U1" pad="V38_8"/>
-<contactref element="U1" pad="22"/>
-<contactref element="U1" pad="V38_1"/>
-<contactref element="U1" pad="V38_4"/>
-<contactref element="U1" pad="V38_9"/>
-<contactref element="U1" pad="V38_7"/>
-<contactref element="U1" pad="V38_2"/>
-<contactref element="U1" pad="38"/>
-<contactref element="U1" pad="V38_3"/>
-<contactref element="U1" pad="11"/>
-<contactref element="U1" pad="35"/>
-<contactref element="U1" pad="V38_5"/>
-<wire x1="35.04" y1="27.105" x2="48" y2="13.49" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="27.105" x2="35.04" y2="27.105" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="31.105" x2="13.22" y2="27.105" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="47.233" x2="13.22" y2="31.105" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="47.233" x2="18.416" y2="47.233" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="47.233" x2="19.316" y2="47.233" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="48.133" x2="20.216" y2="47.233" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="49.033" x2="20.216" y2="48.133" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="49.033" x2="20.216" y2="49.033" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="49.033" x2="19.316" y2="49.033" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="48.133" x2="19.316" y2="47.233" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="48.133" x2="18.416" y2="47.233" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="51.105" x2="18.416" y2="49.033" width="0" layer="19" extent="1-1"/>
-<wire x1="35.04" y1="53.105" x2="20.216" y2="49.033" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP1" pad="1"/>
@@ -816,12 +655,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="IGN_CHK3">
 <contactref element="JP2" pad="9"/>
-</signal>
-<signal name="VCC">
-<contactref element="U1" pad="2"/>
-</signal>
-<signal name="VREF">
-<contactref element="U1" pad="27"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
