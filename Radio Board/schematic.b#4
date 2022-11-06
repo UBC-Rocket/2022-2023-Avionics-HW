@@ -553,173 +553,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="132134RP">
-<description>&lt;SMA REVERSE POLARITY P.C.B. JACK&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="132134RP">
-<description>&lt;b&gt;132134RP-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.5" diameter="2.25"/>
-<pad name="2" x="-2.54" y="2.54" drill="1.7" diameter="2.55"/>
-<pad name="3" x="-2.54" y="-2.54" drill="1.7" diameter="2.55"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.7" diameter="2.55"/>
-<pad name="5" x="2.54" y="2.54" drill="1.7" diameter="2.55"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.2" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.2" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.2" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.2" layer="51"/>
-<wire x1="-4.815" y1="4.815" x2="4.815" y2="4.815" width="0.1" layer="51"/>
-<wire x1="4.815" y1="4.815" x2="4.815" y2="-4.815" width="0.1" layer="51"/>
-<wire x1="4.815" y1="-4.815" x2="-4.815" y2="-4.815" width="0.1" layer="51"/>
-<wire x1="-4.815" y1="-4.815" x2="-4.815" y2="4.815" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="1" x2="-3.5" y2="-1" width="0.1" layer="21"/>
-<wire x1="-1" y1="-3.5" x2="1" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="-1" y1="3.5" x2="1" y2="3.5" width="0.1" layer="21"/>
-<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.1" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="trimble" urn="urn:adsk.eagle:library:404">
-<description>&lt;b&gt;Trimble GPS/GNSS Receiver Modules&lt;/b&gt;&lt;p&gt;
-SMD GPS/GLONASS/GALILEO/COMPASS Receiver modules,  made by &lt;a href="http://www.trimble.com/embeddedsystems/"&gt;Trimble Navigation Ltd, Embedded Systems Group&lt;/a&gt;&lt;p&gt;
-Based on Trimble datasheets and manuals. For the latest version of documentation, support material and tools visit the website
-&lt;a href="http://www.trimble.com/embeddedsystems/"&gt;www.Trimble.com&lt;/a&gt;&lt;br&gt;
-If you have suggestions for improvements, please contact the author so that your feedback can be used in next versions of the library. Thank you!&lt;br&gt;
-The Library and the Demo-designs are provided "as is", without warranty.&lt;br&gt;
-Version: 3.0, Date: 1.Nov. 2011. Check the Trimble website for newer versions of this library.&lt;p&gt;
-&lt;author&gt;Created by Trimble Navigation Ltd, Author: &lt;a href="mailto:christian_voit@trimble.com?subject=Trimble Eagle Library"&gt;Christian Voit&lt;/a&gt;&lt;/author&gt;</description>
-<packages>
-<package name="1919" urn="urn:adsk.eagle:footprint:30180/1" library_version="1">
-<description>&lt;b&gt;Package 1919, 28-pads&lt;/b&gt;&lt;p&gt;
-&lt;p&gt;
-Size: 19 mm x 19 mm x 2.54 mm&lt;p&gt;
-28 SMD edge-castellation pads, 1.27 mm pad-pitch&lt;p&gt;
-by &lt;a href="http://www.trimble.com/embeddedsystems/"&gt;Trimble Navigation Ltd, Embedded Systems Group&lt;/a&gt;&lt;p&gt;
-Used for: Condor C1919A, C1919B, C1919C, Copernicus, Copernicus-II, Resolution-SMT, ICM-SMT, Aardvark, Buffalo B1919&lt;p&gt;
-&lt;author&gt;Created by Trimble Navigation Ltd, Author: &lt;a href="mailto:christian_voit@trimble.com?subject=Trimble Eagle Library"&gt;Christian Voit&lt;/a&gt;&lt;/author&gt;&lt;p&gt;</description>
-<wire x1="-9.5" y1="9.5" x2="-9.5" y2="9" width="0.1" layer="21"/>
-<wire x1="-9.5" y1="9" x2="-9.5" y2="-9" width="0.1" layer="51"/>
-<wire x1="-9.5" y1="-9" x2="-9.5" y2="-9.5" width="0.1" layer="21"/>
-<wire x1="-9.5" y1="-9.5" x2="9.5" y2="-9.5" width="0.1" layer="21"/>
-<wire x1="9.5" y1="-9.5" x2="9.5" y2="-9" width="0.1" layer="21"/>
-<wire x1="9.5" y1="-9" x2="9.5" y2="9" width="0.1" layer="51"/>
-<wire x1="9.5" y1="9" x2="9.5" y2="9.5" width="0.1" layer="21"/>
-<wire x1="9.5" y1="9.5" x2="-9.5" y2="9.5" width="0.1" layer="21"/>
-<wire x1="-10.922" y1="-8.255" x2="-12.954" y2="-8.255" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-8.255" x2="-13.97" y2="-8.255" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-5.969" x2="-12.954" y2="-6.985" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-6.985" x2="-12.954" y2="-8.255" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-8.255" x2="-12.954" y2="-9.271" width="0.127" layer="47"/>
-<wire x1="-13.462" y1="-9.271" x2="-12.954" y2="-8.255" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-8.255" x2="-12.446" y2="-9.271" width="0.127" layer="47"/>
-<wire x1="-13.462" y1="-5.969" x2="-12.954" y2="-6.985" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="-6.985" x2="-12.446" y2="-5.969" width="0.127" layer="47"/>
-<wire x1="-10.922" y1="7.874" x2="-12.954" y2="7.874" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="7.874" x2="-13.97" y2="7.874" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="9.652" x2="-12.954" y2="8.636" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="8.636" x2="-12.954" y2="7.874" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="7.874" x2="-12.954" y2="6.858" width="0.127" layer="47"/>
-<wire x1="-13.462" y1="6.858" x2="-12.954" y2="7.874" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="7.874" x2="-12.446" y2="6.858" width="0.127" layer="47"/>
-<wire x1="-13.462" y1="9.652" x2="-12.954" y2="8.636" width="0.127" layer="47"/>
-<wire x1="-12.954" y1="8.636" x2="-12.446" y2="9.652" width="0.127" layer="47"/>
-<wire x1="-10.0076" y1="10.922" x2="-10.0076" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-10.0076" y1="12.954" x2="-10.0076" y2="13.97" width="0.127" layer="47"/>
-<wire x1="-7.3406" y1="12.954" x2="-8.3566" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-8.3566" y1="12.954" x2="-10.0076" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-10.0076" y1="12.954" x2="-11.0236" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-11.0236" y1="13.462" x2="-10.0076" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-10.0076" y1="12.954" x2="-11.0236" y2="12.446" width="0.127" layer="47"/>
-<wire x1="-7.3406" y1="13.462" x2="-8.3566" y2="12.954" width="0.127" layer="47"/>
-<wire x1="-8.3566" y1="12.954" x2="-7.3406" y2="12.446" width="0.127" layer="47"/>
-<wire x1="-13.97" y1="-6.985" x2="-10.922" y2="-6.985" width="0.127" layer="47"/>
-<wire x1="-10.922" y1="8.636" x2="-13.97" y2="8.636" width="0.127" layer="47"/>
-<wire x1="-8.3566" y1="13.97" x2="-8.3566" y2="10.922" width="0.127" layer="47"/>
-<wire x1="9.1821" y1="-11.684" x2="9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="9.1821" y1="-13.716" x2="9.1821" y2="-14.732" width="0.127" layer="47"/>
-<wire x1="-10.1981" y1="-13.716" x2="-9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="-9.1821" y1="-13.716" x2="-3.429" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="3.429" y1="-13.716" x2="9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="9.1821" y1="-13.716" x2="10.1981" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="10.1981" y1="-14.224" x2="9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="9.1821" y1="-13.716" x2="10.1981" y2="-13.208" width="0.127" layer="47"/>
-<wire x1="-10.1981" y1="-14.224" x2="-9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="-9.1821" y1="-13.716" x2="-10.1981" y2="-13.208" width="0.127" layer="47"/>
-<wire x1="-9.1821" y1="-14.732" x2="-9.1821" y2="-13.716" width="0.127" layer="47"/>
-<wire x1="-9.1821" y1="-13.716" x2="-9.1821" y2="-11.684" width="0.127" layer="47"/>
-<wire x1="10.914" y1="9.5" x2="12.946" y2="9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="9.5" x2="13.962" y2="9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="-10.516" x2="12.946" y2="-9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="-9.5" x2="12.946" y2="-1.27" width="0.127" layer="47"/>
-<wire x1="12.946" y1="1.27" x2="12.946" y2="9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="9.5" x2="12.946" y2="10.516" width="0.127" layer="47"/>
-<wire x1="13.454" y1="10.516" x2="12.946" y2="9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="9.5" x2="12.438" y2="10.516" width="0.127" layer="47"/>
-<wire x1="13.454" y1="-10.516" x2="12.946" y2="-9.5" width="0.127" layer="47"/>
-<wire x1="12.946" y1="-9.5" x2="12.438" y2="-10.516" width="0.127" layer="47"/>
-<wire x1="10.914" y1="-9.5" x2="13.962" y2="-9.5" width="0.127" layer="47"/>
-<circle x="-6.985" y="6.985" radius="0.635" width="0.1" layer="21"/>
-<smd name="1" x="-9.1821" y="8.255" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="2" x="-9.1821" y="6.985" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="3" x="-9.1821" y="5.715" dx="0.762" dy="1.651" layer="1" roundness="100" rot="R270"/>
-<smd name="4" x="-9.1821" y="4.445" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="5" x="-9.1821" y="3.175" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="6" x="-9.1821" y="1.905" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="7" x="-9.1821" y="0.635" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="8" x="-9.1821" y="-0.635" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="9" x="-9.1821" y="-1.905" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="10" x="-9.1821" y="-3.175" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="11" x="-9.1821" y="-4.445" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="12" x="-9.1821" y="-5.715" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="13" x="-9.1821" y="-6.985" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="14" x="-9.1821" y="-8.255" dx="0.762" dy="1.651" layer="1" rot="R270"/>
-<smd name="15" x="9.1821" y="-8.255" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="16" x="9.1821" y="-6.985" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="17" x="9.1821" y="-5.715" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="18" x="9.1821" y="-4.445" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="19" x="9.1821" y="-3.175" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="20" x="9.1821" y="-1.905" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="21" x="9.1821" y="-0.635" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="22" x="9.1821" y="0.635" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="23" x="9.1821" y="1.905" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="24" x="9.1821" y="3.175" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="25" x="9.1821" y="4.445" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="26" x="9.1821" y="5.715" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="27" x="9.1821" y="6.985" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<smd name="28" x="9.1821" y="8.255" dx="0.762" dy="1.651" layer="1" rot="R90"/>
-<text x="-3.175" y="10.795" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-12.065" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-14.986" y="-9.017" size="1.016" layer="47" font="vector" rot="R90">1.27</text>
-<text x="-15.113" y="6.096" size="1.016" layer="47" font="vector" rot="R90">0.762</text>
-<text x="-10.922" y="15.113" size="1.016" layer="47" font="vector">1.651</text>
-<text x="-2.921" y="-14.224" size="1.016" layer="47" font="vector">18.3642</text>
-<text x="11.43" y="-0.381" size="1.016" layer="47" font="vector">19.0</text>
-<rectangle x1="-10.1346" y1="-10.1346" x2="10.1346" y2="10.1346" layer="29" rot="R270"/>
-<rectangle x1="-10.16" y1="-8.128" x2="10.16" y2="8.128" layer="41" rot="R270"/>
-<rectangle x1="8.509" y1="-10.541" x2="9.779" y2="-8.509" layer="41" rot="R270"/>
-<rectangle x1="8.509" y1="8.509" x2="9.779" y2="10.541" layer="41" rot="R270"/>
-<rectangle x1="-9.779" y1="8.509" x2="-8.509" y2="10.541" layer="41" rot="R270"/>
-<rectangle x1="-9.779" y1="-10.541" x2="-8.509" y2="-8.509" layer="41" rot="R270"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1919" urn="urn:adsk.eagle:package:30197/1" type="box" library_version="1">
-<description>Package 1919, 28-pads
-
-Size: 19 mm x 19 mm x 2.54 mm
-28 SMD edge-castellation pads, 1.27 mm pad-pitch
-by Trimble Navigation Ltd, Embedded Systems Group
-Used for: Condor C1919A, C1919B, C1919C, Copernicus, Copernicus-II, Resolution-SMT, ICM-SMT, Aardvark, Buffalo B1919
-Created by Trimble Navigation Ltd, Author: Christian Voit</description>
-<packageinstances>
-<packageinstance name="1919"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -932,91 +765,53 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="24.13" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.72" y="23.1" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="2.54" y="-2.54" smashed="yes">
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="2.54" y="-2.54" smashed="yes">
 <attribute name="NAME" x="2.54" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08390" x="2.54" y="-2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="2.54" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="2.54" y="-6.35" smashed="yes">
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="2.54" y="-6.35" smashed="yes">
 <attribute name="NAME" x="2.54" y="-5.588" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08390" x="2.54" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="2.54" y="-7.112" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="J1" library="132134RP" package="132134RP" value="132134RP" x="5.08" y="-13.97" smashed="yes">
-<attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.53mm" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="132134RP" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="523-132134RP" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/132134RP?qs=Ld4zsxSTIA6y6Ienrae61w%3D%3D" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.08" y="-13.97" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="5.08" y="-13.97" size="1.27" layer="27" align="center"/>
-</element>
-<element name="M1" library="trimble" library_urn="urn:adsk.eagle:library:404" package="1919" package3d_urn="urn:adsk.eagle:package:30197/1" value="" x="-15.24" y="-3.81" smashed="yes">
-<attribute name="NAME" x="-18.415" y="6.985" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-18.415" y="-15.875" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="JP1" pad="4"/>
+<contactref element="U1" pad="13"/>
+<contactref element="U1" pad="V38_5"/>
+<contactref element="U1" pad="38"/>
+<contactref element="U1" pad="V38_2"/>
+<contactref element="U1" pad="V38_1"/>
+<contactref element="U1" pad="V38_9"/>
+<contactref element="U1" pad="11"/>
+<contactref element="U1" pad="35"/>
+<contactref element="U1" pad="V38_4"/>
+<contactref element="U1" pad="V38_7"/>
+<contactref element="U1" pad="1"/>
+<contactref element="U1" pad="V38_3"/>
+<contactref element="U1" pad="V38_8"/>
+<contactref element="U1" pad="V38_6"/>
+<contactref element="U1" pad="22"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
-<contactref element="J1" pad="2"/>
-<contactref element="J1" pad="3"/>
-<contactref element="J1" pad="5"/>
-<contactref element="J1" pad="4"/>
-<contactref element="U1" pad="1"/>
-<contactref element="U1" pad="11"/>
-<contactref element="U1" pad="13"/>
-<contactref element="U1" pad="22"/>
-<contactref element="U1" pad="35"/>
-<contactref element="U1" pad="38"/>
-<contactref element="U1" pad="V38_1"/>
-<contactref element="U1" pad="V38_2"/>
-<contactref element="U1" pad="V38_3"/>
-<contactref element="U1" pad="V38_4"/>
-<contactref element="U1" pad="V38_5"/>
-<contactref element="U1" pad="V38_6"/>
-<contactref element="U1" pad="V38_7"/>
-<contactref element="U1" pad="V38_8"/>
-<contactref element="U1" pad="V38_9"/>
-<contactref element="M1" pad="1"/>
-<contactref element="M1" pad="4"/>
-<contactref element="M1" pad="13"/>
-<contactref element="M1" pad="15"/>
-<contactref element="M1" pad="28"/>
-<contactref element="M1" pad="2"/>
-<contactref element="M1" pad="27"/>
-<contactref element="M1" pad="14"/>
 <wire x1="20.216" y1="49.033" x2="35.04" y2="53.105" width="0" layer="19" extent="1-1"/>
 <wire x1="19.316" y1="49.033" x2="20.216" y2="49.033" width="0" layer="19" extent="1-1"/>
 <wire x1="18.416" y1="49.033" x2="19.316" y2="49.033" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="48.133" x2="18.416" y2="49.033" width="0" layer="19" extent="1-1"/>
 <wire x1="19.316" y1="48.133" x2="19.316" y2="49.033" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="48.133" x2="20.216" y2="49.033" width="0" layer="19" extent="1-1"/>
+<wire x1="18.416" y1="48.133" x2="18.416" y2="49.033" width="0" layer="19" extent="1-1"/>
 <wire x1="18.416" y1="47.233" x2="18.416" y2="48.133" width="0" layer="19" extent="1-1"/>
 <wire x1="19.316" y1="47.233" x2="19.316" y2="48.133" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="47.233" x2="20.216" y2="48.133" width="0" layer="19" extent="1-1"/>
+<wire x1="20.216" y1="47.233" x2="19.316" y2="47.233" width="0" layer="19" extent="1-1"/>
+<wire x1="20.216" y1="48.133" x2="20.216" y2="49.033" width="0" layer="19" extent="1-1"/>
 <wire x1="13.22" y1="51.105" x2="18.416" y2="49.033" width="0" layer="19" extent="1-1"/>
 <wire x1="13.22" y1="31.105" x2="18.416" y2="47.233" width="0" layer="19" extent="1-1"/>
 <wire x1="13.22" y1="27.105" x2="13.22" y2="31.105" width="0" layer="19" extent="1-1"/>
 <wire x1="35.04" y1="27.105" x2="13.22" y2="27.105" width="0" layer="19" extent="1-1"/>
 <wire x1="48" y1="13.49" x2="35.04" y2="27.105" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.0579" y1="4.445" x2="13.22" y2="27.105" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.0579" y1="3.175" x2="-6.0579" y2="4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="3.39" y1="-2.54" x2="-6.0579" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-2.54" x2="13.22" y2="27.105" width="0" layer="19" extent="1-1"/>
 <wire x1="3.39" y1="-6.35" x2="3.39" y2="-2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-11.43" x2="3.39" y2="-6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-16.51" x2="2.54" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-16.51" x2="2.54" y2="-16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-11.43" x2="2.54" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.0579" y1="-12.065" x2="2.54" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.4221" y1="-12.065" x2="-6.0579" y2="-12.065" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.4221" y1="-10.795" x2="-24.4221" y2="-12.065" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.4221" y1="0.635" x2="-24.4221" y2="-10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.4221" y1="3.175" x2="-24.4221" y2="0.635" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.4221" y1="4.445" x2="-24.4221" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP1" pad="1"/>
@@ -1114,14 +909,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="VREF">
 <contactref element="U1" pad="27"/>
-</signal>
-<signal name="N$1">
-<contactref element="U1" pad="36"/>
-<contactref element="J1" pad="1"/>
-<wire x1="5.08" y1="-13.97" x2="35.04" y2="55.105" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VCC">
-<contactref element="M1" pad="12"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

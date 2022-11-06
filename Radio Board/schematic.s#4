@@ -1214,80 +1214,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </deviceset>
 </devicesets>
 </library>
-<library name="132134RP">
-<description>&lt;SMA REVERSE POLARITY P.C.B. JACK&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="132134RP">
-<description>&lt;b&gt;132134RP-2&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.5" diameter="2.25"/>
-<pad name="2" x="-2.54" y="2.54" drill="1.7" diameter="2.55"/>
-<pad name="3" x="-2.54" y="-2.54" drill="1.7" diameter="2.55"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.7" diameter="2.55"/>
-<pad name="5" x="2.54" y="2.54" drill="1.7" diameter="2.55"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.2" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.2" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.2" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.2" layer="51"/>
-<wire x1="-4.815" y1="4.815" x2="4.815" y2="4.815" width="0.1" layer="51"/>
-<wire x1="4.815" y1="4.815" x2="4.815" y2="-4.815" width="0.1" layer="51"/>
-<wire x1="4.815" y1="-4.815" x2="-4.815" y2="-4.815" width="0.1" layer="51"/>
-<wire x1="-4.815" y1="-4.815" x2="-4.815" y2="4.815" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="1" x2="-3.5" y2="-1" width="0.1" layer="21"/>
-<wire x1="-1" y1="-3.5" x2="1" y2="-3.5" width="0.1" layer="21"/>
-<wire x1="-1" y1="3.5" x2="1" y2="3.5" width="0.1" layer="21"/>
-<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="132134RP">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="0" y="-5.08" length="middle"/>
-<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="5" x="20.32" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="132134RP" prefix="J">
-<description>&lt;b&gt;SMA REVERSE POLARITY P.C.B. JACK&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA15/760404.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="132134RP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="132134RP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" constant="no"/>
-<attribute name="HEIGHT" value="9.53mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="132134RP" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="523-132134RP" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/132134RP?qs=Ld4zsxSTIA6y6Ienrae61w%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1305,8 +1231,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J1" library="132134RP" deviceset="132134RP" device=""/>
-<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1326,14 +1250,15 @@ control pins</text>
 <attribute name="VALUE" x="36.83" y="20.32" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP2" gate="A" x="132.08" y="50.8" smashed="yes">
+<attribute name="NAME" x="125.73" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="76.2" y="63.5" smashed="yes">
-<attribute name="NAME" x="60.96" y="87.122" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="37.338" size="1.778" layer="96" align="top-left"/>
+<instance part="U1" gate="G$1" x="81.28" y="66.04" smashed="yes">
+<attribute name="NAME" x="66.04" y="89.662" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.04" y="39.878" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="104.14" y="33.02" smashed="yes">
-<attribute name="VALUE" x="102.235" y="29.845" size="1.778" layer="96"/>
+<instance part="SUPPLY1" gate="GND" x="111.76" y="38.1" smashed="yes">
+<attribute name="VALUE" x="109.855" y="34.925" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="40.64" y="88.9" smashed="yes">
 <attribute name="NAME" x="42.164" y="91.821" size="1.778" layer="95" font="vector"/>
@@ -1345,13 +1270,6 @@ control pins</text>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="45.72" y="83.82" smashed="yes">
 <attribute name="VALUE" x="43.815" y="80.645" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="111.76" y="93.98" smashed="yes">
-<attribute name="NAME" x="128.27" y="101.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="128.27" y="99.06" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="SUPPLY3" gate="GND" x="121.92" y="81.28" smashed="yes">
-<attribute name="VALUE" x="120.015" y="78.105" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1365,9 +1283,9 @@ control pins</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="99.06" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="83.82" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<label x="99.06" y="86.36" size="1.778" layer="95"/>
+<wire x1="104.14" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<label x="104.14" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
@@ -1401,8 +1319,8 @@ control pins</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="43.18" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="45.72" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -1412,22 +1330,6 @@ control pins</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <junction x="45.72" y="86.36"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="91.44" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="88.9" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<junction x="111.76" y="88.9"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="111.76" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
-<junction x="121.92" y="83.82"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="132.08" y1="83.82" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
-<junction x="132.08" y="91.44"/>
 </segment>
 </net>
 <net name="SCL0" class="0">
@@ -1466,8 +1368,8 @@ control pins</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DIO13"/>
-<wire x1="96.52" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-<label x="99.06" y="73.66" size="1.778" layer="95"/>
+<wire x1="101.6" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<label x="104.14" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX2" class="0">
@@ -1478,8 +1380,8 @@ control pins</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DIO14"/>
-<wire x1="96.52" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<label x="99.06" y="76.2" size="1.778" layer="95"/>
+<wire x1="101.6" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="104.14" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX3" class="0">
@@ -1613,15 +1515,6 @@ control pins</text>
 <pinref part="JP2" gate="A" pin="9"/>
 <wire x1="129.54" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <label x="119.38" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RF"/>
-<wire x1="96.52" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="53.34" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
