@@ -196,13 +196,13 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="55" y2="0" width="0" layer="20"/>
-<wire x1="55" y1="0" x2="55" y2="80.32" width="0" layer="20"/>
-<wire x1="55" y1="80.32" x2="0" y2="80.32" width="0" layer="20"/>
-<wire x1="0" y1="80.32" x2="0" y2="0" width="0" layer="20"/>
-<hole x="2.54" y="22.86" drill="3.175"/>
-<hole x="52.07" y="22.86" drill="3.175"/>
-<hole x="52.07" y="77.47" drill="3.175"/>
-<hole x="2.54" y="77.47" drill="3.175"/>
+<wire x1="55" y1="0" x2="55" y2="73.97" width="0" layer="20"/>
+<wire x1="55" y1="73.97" x2="0" y2="73.97" width="0" layer="20"/>
+<wire x1="0" y1="73.97" x2="0" y2="0" width="0" layer="20"/>
+<hole x="2.54" y="16.51" drill="3.175"/>
+<hole x="52.07" y="16.51" drill="3.175"/>
+<hole x="52.07" y="71.12" drill="3.175"/>
+<hole x="2.54" y="71.12" drill="3.175"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -736,7 +736,7 @@ design rules under a new name.</description>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
 <param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
+<param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="a"/>
@@ -829,34 +829,34 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="48" y="50.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.1712" y="24.8438" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="51.175" y="24.92" size="1.27" layer="27" rot="R90"/>
+<element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="48" y="43.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.1712" y="18.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.175" y="18.57" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="7" y="50.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.1712" y="24.8438" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.175" y="24.92" size="1.27" layer="27" rot="R90"/>
+<element name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="7" y="43.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.1712" y="18.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.175" y="18.57" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RADIO" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="24.13" y="60.96" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Digi International" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="XBP9X-DMRS-001" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.97" y="78.85" size="1.27" layer="25"/>
-<attribute name="PACKAGE" value="Module Digi International" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.72" y="42.15" size="1.27" layer="27" align="top-left"/>
+<element name="RADIO" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="26.67" y="53.34" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Digi International" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="XBP9X-DMRS-001" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.83" y="35.45" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Module Digi International" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="39.08" y="72.15" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="17.78" y="34.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.018" y="34.29" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="18.542" y="34.29" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="15.24" y="32" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.478" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="15.24" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.002" y="32" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="25.4" y="34.29" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.638" y="34.29" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="25.4" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="26.162" y="34.29" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="24.13" y="32" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.368" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="24.13" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.892" y="33.52" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="J1" library="132134RP" package="132134RP" value="132134RP" x="46.99" y="7.62" smashed="yes">
 <attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
@@ -866,15 +866,15 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="523-132134RP" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/132134RP?qs=Ld4zsxSTIA6y6Ienrae61w%3D%3D" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="46.99" y="7.62" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="46.99" y="7.62" size="1.27" layer="27" align="center"/>
+<attribute name="VALUE" x="48.26" y="13.97" size="1.27" layer="27" align="center"/>
 </element>
-<element name="GPS" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="13" y="4" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.603" y="2.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="15.032" y="2.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="GPS" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="13" y="4.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.603" y="3.19" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="15.032" y="3.19" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="35.86" y="4" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.463" y="2.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="37.892" y="2.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="35.86" y="4.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.463" y="3.19" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="37.892" y="3.19" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -902,27 +902,27 @@ design rules under a new name.</description>
 <contactref element="RADIO" pad="V38_8"/>
 <contactref element="RADIO" pad="V38_9"/>
 <contactref element="J3" pad="9"/>
-<wire x1="20.216" y1="68.083" x2="35.04" y2="72.155" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="68.083" x2="20.216" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="68.083" x2="19.316" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="67.183" x2="18.416" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="67.183" x2="19.316" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="67.183" x2="20.216" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="18.416" y1="66.283" x2="18.416" y2="67.183" width="0" layer="19" extent="1-1"/>
-<wire x1="19.316" y1="66.283" x2="19.316" y2="67.183" width="0" layer="19" extent="1-1"/>
-<wire x1="20.216" y1="66.283" x2="20.216" y2="67.183" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="70.155" x2="18.416" y2="68.083" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="50.155" x2="18.416" y2="66.283" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="46.155" x2="13.22" y2="50.155" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="35.14" x2="13.22" y2="46.155" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="35.14" x2="17.78" y2="35.14" width="0" layer="19" extent="1-1"/>
-<wire x1="35.04" y1="46.155" x2="17.78" y2="35.14" width="0" layer="19" extent="1-1"/>
-<wire x1="48" y1="33.81" x2="35.04" y2="46.155" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="24.32" x2="48" y2="33.81" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="10.16" x2="35.86" y2="24.32" width="0" layer="19" extent="1-1"/>
+<wire x1="37.58" y1="64.145" x2="37.58" y2="68.145" width="0" layer="19" extent="1-1"/>
+<wire x1="32.384" y1="48.017" x2="37.58" y2="64.145" width="0" layer="19" extent="1-1"/>
+<wire x1="32.384" y1="47.117" x2="32.384" y2="48.017" width="0" layer="19" extent="1-1"/>
+<wire x1="32.384" y1="46.217" x2="32.384" y2="47.117" width="0" layer="19" extent="1-1"/>
+<wire x1="31.484" y1="46.217" x2="32.384" y2="46.217" width="0" layer="19" extent="1-1"/>
+<wire x1="30.584" y1="46.217" x2="31.484" y2="46.217" width="0" layer="19" extent="1-1"/>
+<wire x1="31.484" y1="47.117" x2="32.384" y2="47.117" width="0" layer="19" extent="1-1"/>
+<wire x1="30.584" y1="47.117" x2="30.584" y2="46.217" width="0" layer="19" extent="1-1"/>
+<wire x1="31.484" y1="48.017" x2="32.384" y2="48.017" width="0" layer="19" extent="1-1"/>
+<wire x1="30.584" y1="48.017" x2="30.584" y2="47.117" width="0" layer="19" extent="1-1"/>
+<wire x1="37.58" y1="44.145" x2="32.384" y2="46.217" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="32.85" x2="30.584" y2="46.217" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="32.85" x2="24.13" y2="32.85" width="0" layer="19" extent="1-1"/>
+<wire x1="15.76" y1="42.145" x2="15.24" y2="32.85" width="0" layer="19" extent="1-1"/>
+<wire x1="35.86" y1="24.78" x2="24.13" y2="32.85" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="27.46" x2="35.86" y2="24.78" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="10.16" x2="35.86" y2="24.78" width="0" layer="19" extent="1-1"/>
 <wire x1="49.53" y1="10.16" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="49.53" y1="5.08" x2="49.53" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="5.08" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="15.76" y1="68.145" x2="37.58" y2="68.145" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP1" pad="1"/>
@@ -930,10 +930,10 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="J3" pad="8"/>
-<wire x1="17.78" y1="33.44" x2="13.22" y2="68.155" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="33.44" x2="17.78" y2="33.44" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="21.78" x2="25.4" y2="33.44" width="0" layer="19" extent="1-1"/>
-<wire x1="48" y1="26.19" x2="35.86" y2="21.78" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="31.15" x2="37.58" y2="46.145" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="31.15" x2="24.13" y2="31.15" width="0" layer="19" extent="1-1"/>
+<wire x1="35.86" y1="22.24" x2="24.13" y2="31.15" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="19.84" x2="35.86" y2="22.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="2"/>
@@ -950,22 +950,22 @@ design rules under a new name.</description>
 <signal name="RX1">
 <contactref element="JP1" pad="7"/>
 <contactref element="GPS" pad="7"/>
-<wire x1="13" y1="19.24" x2="48" y2="41.43" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="19.7" x2="48" y2="35.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX1">
 <contactref element="JP1" pad="8"/>
 <contactref element="GPS" pad="5"/>
-<wire x1="13" y1="14.16" x2="48" y2="43.97" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="14.62" x2="48" y2="37.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX2">
 <contactref element="JP1" pad="9"/>
 <contactref element="RADIO" pad="3"/>
-<wire x1="13.22" y1="66.155" x2="48" y2="46.51" width="0" layer="19" extent="1-1"/>
+<wire x1="37.58" y1="48.145" x2="48" y2="40.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX2">
 <contactref element="JP1" pad="10"/>
 <contactref element="RADIO" pad="4"/>
-<wire x1="13.22" y1="64.155" x2="48" y2="49.05" width="0" layer="19" extent="1-1"/>
+<wire x1="37.58" y1="50.145" x2="48" y2="42.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX3">
 <contactref element="JP1" pad="11"/>
@@ -1030,7 +1030,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="RADIO" pad="36"/>
 <contactref element="J1" pad="1"/>
-<wire x1="46.99" y1="7.62" x2="35.04" y2="74.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="7.62" x2="15.76" y2="40.145" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

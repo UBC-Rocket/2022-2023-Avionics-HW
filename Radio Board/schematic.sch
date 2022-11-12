@@ -2581,7 +2581,7 @@ control pins</text>
 <label x="119.38" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RF" class="0">
 <segment>
 <pinref part="RADIO" gate="G$1" pin="RF"/>
 <wire x1="96.52" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
@@ -2593,6 +2593,9 @@ control pins</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,96.52,81.28,RADIO,VREF,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

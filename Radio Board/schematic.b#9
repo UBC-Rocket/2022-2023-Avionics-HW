@@ -837,7 +837,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.1712" y="24.8438" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="10.175" y="24.92" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="24.13" y="60.96" smashed="yes">
+<element name="RADIO" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="24.13" y="60.96" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Digi International" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
@@ -848,15 +848,15 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="24.13" y="60.96" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.72" y="42.15" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="41.91" y="74.93" smashed="yes">
-<attribute name="NAME" x="41.91" y="75.692" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="41.91" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="17.78" y="34.29" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.018" y="34.29" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="17.78" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="18.542" y="34.29" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="41.91" y="71.12" smashed="yes">
-<attribute name="NAME" x="41.91" y="71.882" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="41.91" y="71.12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="41.91" y="70.358" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="25.4" y="34.29" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.638" y="34.29" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="25.4" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="26.162" y="34.29" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="J1" library="132134RP" package="132134RP" value="132134RP" x="46.99" y="7.62" smashed="yes">
 <attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
@@ -868,13 +868,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.99" y="7.62" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="46.99" y="7.62" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="13" y="7" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.603" y="5.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="15.032" y="5.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="GPS" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="13" y="4" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.603" y="2.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="15.032" y="2.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="35.86" y="7" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.463" y="5.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="37.892" y="5.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="35.86" y="4" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.463" y="2.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="37.892" y="2.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -886,24 +886,22 @@ design rules under a new name.</description>
 <contactref element="J1" pad="3"/>
 <contactref element="J1" pad="5"/>
 <contactref element="J1" pad="4"/>
-<contactref element="U1" pad="1"/>
-<contactref element="U1" pad="11"/>
-<contactref element="U1" pad="13"/>
-<contactref element="U1" pad="22"/>
-<contactref element="U1" pad="35"/>
-<contactref element="U1" pad="38"/>
-<contactref element="U1" pad="V38_1"/>
-<contactref element="U1" pad="V38_2"/>
-<contactref element="U1" pad="V38_3"/>
-<contactref element="U1" pad="V38_4"/>
-<contactref element="U1" pad="V38_5"/>
-<contactref element="U1" pad="V38_6"/>
-<contactref element="U1" pad="V38_7"/>
-<contactref element="U1" pad="V38_8"/>
-<contactref element="U1" pad="V38_9"/>
+<contactref element="RADIO" pad="1"/>
+<contactref element="RADIO" pad="11"/>
+<contactref element="RADIO" pad="13"/>
+<contactref element="RADIO" pad="22"/>
+<contactref element="RADIO" pad="35"/>
+<contactref element="RADIO" pad="38"/>
+<contactref element="RADIO" pad="V38_1"/>
+<contactref element="RADIO" pad="V38_2"/>
+<contactref element="RADIO" pad="V38_3"/>
+<contactref element="RADIO" pad="V38_4"/>
+<contactref element="RADIO" pad="V38_5"/>
+<contactref element="RADIO" pad="V38_6"/>
+<contactref element="RADIO" pad="V38_7"/>
+<contactref element="RADIO" pad="V38_8"/>
+<contactref element="RADIO" pad="V38_9"/>
 <contactref element="J3" pad="9"/>
-<wire x1="42.76" y1="71.12" x2="42.76" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="35.04" y1="72.155" x2="42.76" y2="71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="20.216" y1="68.083" x2="35.04" y2="72.155" width="0" layer="19" extent="1-1"/>
 <wire x1="19.316" y1="68.083" x2="20.216" y2="68.083" width="0" layer="19" extent="1-1"/>
 <wire x1="18.416" y1="68.083" x2="19.316" y2="68.083" width="0" layer="19" extent="1-1"/>
@@ -916,24 +914,26 @@ design rules under a new name.</description>
 <wire x1="13.22" y1="70.155" x2="18.416" y2="68.083" width="0" layer="19" extent="1-1"/>
 <wire x1="13.22" y1="50.155" x2="18.416" y2="66.283" width="0" layer="19" extent="1-1"/>
 <wire x1="13.22" y1="46.155" x2="13.22" y2="50.155" width="0" layer="19" extent="1-1"/>
-<wire x1="35.04" y1="46.155" x2="13.22" y2="46.155" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="35.14" x2="13.22" y2="46.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="35.14" x2="17.78" y2="35.14" width="0" layer="19" extent="1-1"/>
+<wire x1="35.04" y1="46.155" x2="17.78" y2="35.14" width="0" layer="19" extent="1-1"/>
 <wire x1="48" y1="33.81" x2="35.04" y2="46.155" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="27.32" x2="48" y2="33.81" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="10.16" x2="35.86" y2="27.32" width="0" layer="19" extent="1-1"/>
+<wire x1="35.86" y1="24.32" x2="48" y2="33.81" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="10.16" x2="35.86" y2="24.32" width="0" layer="19" extent="1-1"/>
 <wire x1="49.53" y1="10.16" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="49.53" y1="5.08" x2="49.53" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="5.08" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP1" pad="1"/>
-<contactref element="U1" pad="2"/>
+<contactref element="RADIO" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="J3" pad="8"/>
-<wire x1="41.06" y1="71.12" x2="41.06" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="13.22" y1="68.155" x2="41.06" y2="71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="48" y1="26.19" x2="41.06" y2="71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="24.78" x2="48" y2="26.19" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="33.44" x2="13.22" y2="68.155" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="33.44" x2="17.78" y2="33.44" width="0" layer="19" extent="1-1"/>
+<wire x1="35.86" y1="21.78" x2="25.4" y2="33.44" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="26.19" x2="35.86" y2="21.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="2"/>
@@ -949,22 +949,22 @@ design rules under a new name.</description>
 </signal>
 <signal name="RX1">
 <contactref element="JP1" pad="7"/>
-<contactref element="J2" pad="7"/>
-<wire x1="13" y1="22.24" x2="48" y2="41.43" width="0" layer="19" extent="1-1"/>
+<contactref element="GPS" pad="7"/>
+<wire x1="13" y1="19.24" x2="48" y2="41.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX1">
 <contactref element="JP1" pad="8"/>
-<contactref element="J2" pad="5"/>
-<wire x1="13" y1="17.16" x2="48" y2="43.97" width="0" layer="19" extent="1-1"/>
+<contactref element="GPS" pad="5"/>
+<wire x1="13" y1="14.16" x2="48" y2="43.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX2">
 <contactref element="JP1" pad="9"/>
-<contactref element="U1" pad="3"/>
+<contactref element="RADIO" pad="3"/>
 <wire x1="13.22" y1="66.155" x2="48" y2="46.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX2">
 <contactref element="JP1" pad="10"/>
-<contactref element="U1" pad="4"/>
+<contactref element="RADIO" pad="4"/>
 <wire x1="13.22" y1="64.155" x2="48" y2="49.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX3">
@@ -1025,10 +1025,10 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="9"/>
 </signal>
 <signal name="VREF">
-<contactref element="U1" pad="27"/>
+<contactref element="RADIO" pad="27"/>
 </signal>
 <signal name="N$1">
-<contactref element="U1" pad="36"/>
+<contactref element="RADIO" pad="36"/>
 <contactref element="J1" pad="1"/>
 <wire x1="46.99" y1="7.62" x2="35.04" y2="74.155" width="0" layer="19" extent="1-1"/>
 </signal>

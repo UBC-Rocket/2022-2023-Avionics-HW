@@ -1627,6 +1627,11 @@ control pins</text>
 <junction x="40.64" y="99.06"/>
 <label x="40.64" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="VCC"/>
+<wire x1="58.42" y1="0" x2="45.72" y2="0" width="0.1524" layer="91"/>
+<label x="45.72" y="0" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
