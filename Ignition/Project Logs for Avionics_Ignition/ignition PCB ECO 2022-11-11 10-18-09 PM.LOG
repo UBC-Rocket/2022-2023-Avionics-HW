@@ -1,0 +1,53 @@
+Change Component DesignItemId : Designator=JP1 Old DesignItemId=1X20 New DesignItemId=PINHD-1X20
+Change Component DesignItemId : Designator=JP2 Old DesignItemId=1X20 New DesignItemId=PINHD-1X20
+Change Component Comment : Designator=JP1 Old Comment= New Comment=PINHD-1X20
+Change Component Comment : Designator=JP2 Old Comment= New Comment=PINHD-1X20
+Added Component: Designator=J1(691214110002)
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://katalog.we-online.de/em/datasheet/6912141100xx.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "691214110002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "691214110002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.50mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO127P600X120-5N)
+Add component (AddParameter): Name = "Category"; Value = "MOSFETs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PSMN5R6-60YLX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=1.17000, 10=1.05000, 50=1.05000, 100=0.82100, 1000=0.54200, 10000=0.45300 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "26943"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "771-PSMN5R6-60YLX"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO127P600X120-5N)
+Add component (AddParameter): Name = "Category"; Value = "MOSFETs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PSMN5R6-60YLX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=1.17000, 10=1.05000, 50=1.05000, 100=0.82100, 1000=0.54200, 10000=0.45300 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "26943"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "771-PSMN5R6-60YLX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=IGN1_1 Pin=Q1-4
+Added Pin To Net: NetName=LIPO Pin=Q1-5
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=IGN1_2 Pin=Q2-4
+Added Pin To Net: NetName=E-match + Pin=J1-1
+Added Pin To Net: NetName=E-match + Pin=Q1-1
+Added Pin To Net: NetName=E-match + Pin=Q1-2
+Added Pin To Net: NetName=E-match + Pin=Q1-3
+Added Pin To Net: NetName=E-match + Pin=Q2-5
+Added Net: Name=E-match +
+Added Member To Class: ClassName=ignition Member=Component J1 E-match
+Added Member To Class: ClassName=ignition Member=Component Q1 PSMN5R6-60YLX
+Added Member To Class: ClassName=ignition Member=Component Q2 PSMN5R6-60YLX
+Added Room: Name=ignition
