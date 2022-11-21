@@ -196,13 +196,15 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="55" y2="0" width="0" layer="20"/>
-<wire x1="55" y1="0" x2="55" y2="73.97" width="0" layer="20"/>
-<wire x1="55" y1="73.97" x2="0" y2="73.97" width="0" layer="20"/>
-<wire x1="0" y1="73.97" x2="0" y2="0" width="0" layer="20"/>
-<hole x="2.54" y="16.51" drill="3.175"/>
-<hole x="52.07" y="16.51" drill="3.175"/>
-<hole x="52.07" y="71.12" drill="3.175"/>
-<hole x="2.54" y="71.12" drill="3.175"/>
+<wire x1="55" y1="0" x2="55" y2="70.16" width="0" layer="20"/>
+<wire x1="55" y1="70.16" x2="0" y2="70.16" width="0" layer="20"/>
+<wire x1="0" y1="70.16" x2="0" y2="0" width="0" layer="20"/>
+<hole x="2.54" y="12.7" drill="3.175"/>
+<hole x="52.07" y="12.7" drill="3.175"/>
+<hole x="52.07" y="67.31" drill="3.175"/>
+<hole x="2.54" y="67.31" drill="3.175"/>
+<dimension x1="55" y1="70.16" x2="0" y2="70.16" x3="27.5" y3="74.93" textsize="1.778" layer="1"/>
+<dimension x1="55" y1="10.16" x2="55" y2="70.16" x3="60.96" y3="40.16" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -403,6 +405,89 @@
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="1X10_NO_SILK">
+<description>&lt;h3&gt;Plated Through Hole -10 Pin No Silk&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_10&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="20.32" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="10" x="22.86" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
+<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
+<rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Capacitors">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+</library>
 <library name="XBP9X-DMRS-001">
 <packages>
 <package name="MODULE_XBP9X-DMRS-001">
@@ -524,40 +609,6 @@
 </package>
 </packages>
 </library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
-This library contains capacitors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-</library>
 <library name="132134RP">
 <description>&lt;SMA REVERSE POLARITY P.C.B. JACK&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -587,55 +638,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="1X10_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole -10 Pin No Silk&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_10&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="9" x="20.32" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="10" x="22.86" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
-<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
-<rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -643,9 +645,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-</class>
-<class number="6" name="5V Power" width="1" drill="1">
-<clearance class="6" value="0.1016"/>
 </class>
 </classes>
 <designrules name="default">
@@ -832,114 +831,114 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="48" y="43.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.1712" y="18.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="51.175" y="18.57" size="1.27" layer="27" rot="R90"/>
+<element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="48" y="40.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.1712" y="14.6838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.175" y="14.76" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="7" y="43.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.1712" y="18.4938" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.175" y="18.57" size="1.27" layer="27" rot="R90"/>
+<element name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" package3d_urn="urn:adsk.eagle:package:6240777/1" value="" x="7" y="40.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.1712" y="14.6838" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.175" y="14.76" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RADIO" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="26.67" y="53.34" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Digi International" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="XBP9X-DMRS-001" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.83" y="35.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Module Digi International" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="26.67" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="39.08" y="72.15" size="1.27" layer="27" rot="R180" align="top-left"/>
+<element name="GPS" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="19.14" y="5" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.743" y="3.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="21.172" y="3.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="15.24" y="32" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.478" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="15.24" y="32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="16.002" y="32" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="42" y="5" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.603" y="3.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="44.032" y="3.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="24.13" y="32" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.368" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08390" x="24.13" y="32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="24.892" y="33.52" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="1uF" x="39.37" y="43.18" smashed="yes">
+<attribute name="NAME" x="39.37" y="43.942" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="39.37" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.37" y="42.418" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J1" library="132134RP" package="132134RP" value="132134RP" x="46.99" y="7.62" smashed="yes">
-<attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.53mm" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="132134RP" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="523-132134RP" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/132134RP?qs=Ld4zsxSTIA6y6Ienrae61w%3D%3D" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.99" y="7.62" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="48.26" y="13.97" size="1.27" layer="27" align="center"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="100pF" x="39.37" y="46" smashed="yes">
+<attribute name="NAME" x="39.37" y="46.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="39.37" y="46" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.37" y="45.238" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="GPS" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="13" y="4.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.603" y="3.19" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="15.032" y="3.19" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="RADIO" library="XBP9X-DMRS-001" package="MODULE_XBP9X-DMRS-001" value="XBP9X-DMRS-001" x="24.13" y="49.53" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz - Transceiver Module 902MHz ~ 928MHz Antenna Not Included, RF Pad Surface Mount " x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Digi International" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="XBP9X-DMRS-001" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.29" y="31.64" size="1.27" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="Module Digi International" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/XBP9X-DMRS-001/?ref=eda" x="50.8" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="36.54" y="68.34" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="1X10_NO_SILK" value="" x="35.86" y="4.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.463" y="3.19" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="37.892" y="3.19" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="J1" library="132134RP" package="132134RP" value="132134RP" x="11.049" y="6.731" smashed="yes">
+<attribute name="DESCRIPTION" value="SMA REVERSE POLARITY P.C.B. JACK" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.53mm" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="132134RP" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="523-132134RP" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-RF/132134RP?qs=Ld4zsxSTIA6y6Ienrae61w%3D%3D" x="-15.621" y="46.101" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.779" y="6.731" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="11.049" y="13.081" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="JP1" pad="4"/>
+<contactref element="J3" pad="9"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
+<contactref element="RADIO" pad="V38_6"/>
+<contactref element="RADIO" pad="22"/>
+<contactref element="RADIO" pad="V38_8"/>
+<contactref element="RADIO" pad="V38_1"/>
+<contactref element="RADIO" pad="V38_9"/>
+<contactref element="RADIO" pad="V38_5"/>
+<contactref element="RADIO" pad="38"/>
+<contactref element="RADIO" pad="35"/>
+<contactref element="RADIO" pad="V38_3"/>
+<contactref element="RADIO" pad="V38_4"/>
+<contactref element="RADIO" pad="1"/>
+<contactref element="RADIO" pad="11"/>
+<contactref element="RADIO" pad="13"/>
+<contactref element="RADIO" pad="V38_2"/>
+<contactref element="RADIO" pad="V38_7"/>
 <contactref element="J1" pad="2"/>
 <contactref element="J1" pad="3"/>
 <contactref element="J1" pad="5"/>
 <contactref element="J1" pad="4"/>
-<contactref element="RADIO" pad="1"/>
-<contactref element="RADIO" pad="11"/>
-<contactref element="RADIO" pad="13"/>
-<contactref element="RADIO" pad="22"/>
-<contactref element="RADIO" pad="35"/>
-<contactref element="RADIO" pad="38"/>
-<contactref element="RADIO" pad="V38_1"/>
-<contactref element="RADIO" pad="V38_2"/>
-<contactref element="RADIO" pad="V38_3"/>
-<contactref element="RADIO" pad="V38_4"/>
-<contactref element="RADIO" pad="V38_5"/>
-<contactref element="RADIO" pad="V38_6"/>
-<contactref element="RADIO" pad="V38_7"/>
-<contactref element="RADIO" pad="V38_8"/>
-<contactref element="RADIO" pad="V38_9"/>
-<contactref element="J3" pad="9"/>
-<wire x1="37.58" y1="64.145" x2="37.58" y2="68.145" width="0" layer="19" extent="1-1"/>
-<wire x1="32.384" y1="48.017" x2="37.58" y2="64.145" width="0" layer="19" extent="1-1"/>
-<wire x1="32.384" y1="47.117" x2="32.384" y2="48.017" width="0" layer="19" extent="1-1"/>
-<wire x1="32.384" y1="46.217" x2="32.384" y2="47.117" width="0" layer="19" extent="1-1"/>
-<wire x1="31.484" y1="46.217" x2="32.384" y2="46.217" width="0" layer="19" extent="1-1"/>
-<wire x1="30.584" y1="46.217" x2="31.484" y2="46.217" width="0" layer="19" extent="1-1"/>
-<wire x1="31.484" y1="47.117" x2="32.384" y2="47.117" width="0" layer="19" extent="1-1"/>
-<wire x1="30.584" y1="47.117" x2="30.584" y2="46.217" width="0" layer="19" extent="1-1"/>
-<wire x1="31.484" y1="48.017" x2="32.384" y2="48.017" width="0" layer="19" extent="1-1"/>
-<wire x1="30.584" y1="48.017" x2="30.584" y2="47.117" width="0" layer="19" extent="1-1"/>
-<wire x1="37.58" y1="44.145" x2="32.384" y2="46.217" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="32.85" x2="30.584" y2="46.217" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="32.85" x2="24.13" y2="32.85" width="0" layer="19" extent="1-1"/>
-<wire x1="15.76" y1="42.145" x2="15.24" y2="32.85" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="24.78" x2="24.13" y2="32.85" width="0" layer="19" extent="1-1"/>
-<wire x1="48" y1="27.46" x2="35.86" y2="24.78" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="10.16" x2="35.86" y2="24.78" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="10.16" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="5.08" x2="49.53" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="5.08" x2="44.45" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="15.76" y1="68.145" x2="37.58" y2="68.145" width="0" layer="19" extent="1-1"/>
+<wire x1="35.04" y1="60.335" x2="35.04" y2="64.335" width="0" layer="19" extent="1-1"/>
+<wire x1="40.22" y1="46" x2="35.04" y2="60.335" width="0" layer="19" extent="1-1"/>
+<wire x1="40.22" y1="43.18" x2="40.22" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="35.04" y1="40.335" x2="40.22" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="29.844" y1="42.407" x2="35.04" y2="40.335" width="0" layer="19" extent="1-1"/>
+<wire x1="29.844" y1="43.307" x2="29.844" y2="42.407" width="0" layer="19" extent="1-1"/>
+<wire x1="28.944" y1="43.307" x2="29.844" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="28.044" y1="43.307" x2="28.944" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="28.944" y1="44.207" x2="28.944" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="28.044" y1="44.207" x2="28.044" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="29.844" y1="44.207" x2="29.844" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="28.044" y1="42.407" x2="28.044" y2="43.307" width="0" layer="19" extent="1-1"/>
+<wire x1="28.944" y1="42.407" x2="29.844" y2="42.407" width="0" layer="19" extent="1-1"/>
+<wire x1="13.22" y1="38.335" x2="28.044" y2="42.407" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="25.32" x2="35.04" y2="40.335" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="23.65" x2="42" y2="25.32" width="0" layer="19" extent="1-1"/>
+<wire x1="13.22" y1="64.335" x2="35.04" y2="64.335" width="0" layer="19" extent="1-1"/>
+<wire x1="13.589" y1="9.271" x2="13.22" y2="38.335" width="0" layer="19" extent="1-1"/>
+<wire x1="8.509" y1="9.271" x2="13.589" y2="9.271" width="0" layer="19" extent="1-1"/>
+<wire x1="13.589" y1="4.191" x2="13.589" y2="9.271" width="0" layer="19" extent="1-1"/>
+<wire x1="8.509" y1="4.191" x2="8.509" y2="9.271" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="3.3V">
+<signal name="3V3.1">
 <contactref element="JP1" pad="1"/>
-<contactref element="RADIO" pad="2"/>
+</signal>
+<signal name="3V3.2">
+<contactref element="JP1" pad="2"/>
+<contactref element="J3" pad="8"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="J3" pad="8"/>
-<wire x1="24.13" y1="31.15" x2="37.58" y2="46.145" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="31.15" x2="24.13" y2="31.15" width="0" layer="19" extent="1-1"/>
-<wire x1="35.86" y1="22.24" x2="24.13" y2="31.15" width="0" layer="19" extent="1-1"/>
-<wire x1="48" y1="19.84" x2="35.86" y2="22.24" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="5V">
-<contactref element="JP1" pad="2"/>
+<contactref element="RADIO" pad="2"/>
+<wire x1="38.52" y1="43.18" x2="38.52" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="35.04" y1="42.335" x2="38.52" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="22.78" x2="38.52" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="18.57" x2="42" y2="22.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIPO">
 <contactref element="JP1" pad="3"/>
@@ -953,37 +952,22 @@ design rules under a new name.</description>
 <signal name="RX1">
 <contactref element="JP1" pad="7"/>
 <contactref element="GPS" pad="7"/>
-<wire x1="35.37603125" y1="23.4084" x2="36.3284" y2="23.4084" width="0.1524" layer="1"/>
-<wire x1="36.3284" y1="23.4084" x2="48" y2="35.08" width="0.1524" layer="1"/>
-<wire x1="13" y1="19.7" x2="31.66763125" y2="19.7" width="0.1524" layer="1"/>
-<wire x1="31.66763125" y1="19.7" x2="35.37603125" y2="23.4084" width="0.1524" layer="1"/>
+<wire x1="19.14" y1="20.24" x2="48" y2="31.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX1">
 <contactref element="JP1" pad="8"/>
 <contactref element="GPS" pad="5"/>
-<wire x1="12.51603125" y1="18.5316" x2="11.8316" y2="19.21603125" width="0.1524" layer="1"/>
-<wire x1="11.8316" y1="19.21603125" x2="11.8316" y2="20.18396875" width="0.1524" layer="1"/>
-<wire x1="11.8316" y1="20.18396875" x2="12.51603125" y2="20.8684" width="0.1524" layer="1"/>
-<wire x1="35.37603125" y1="25.9484" x2="36.3284" y2="25.9484" width="0.1524" layer="1"/>
-<wire x1="36.3284" y1="25.9484" x2="48" y2="37.62" width="0.1524" layer="1"/>
-<wire x1="12.51603125" y1="20.8684" x2="30.29603125" y2="20.8684" width="0.1524" layer="1"/>
-<wire x1="30.29603125" y1="20.8684" x2="35.37603125" y2="25.9484" width="0.1524" layer="1"/>
-<wire x1="13.28076875" y1="18.5316" x2="12.51603125" y2="18.5316" width="0.1524" layer="1"/>
-<wire x1="13" y1="14.62" x2="14.1684" y2="15.7884" width="0.1524" layer="1"/>
-<wire x1="14.1684" y1="15.7884" x2="14.1684" y2="17.64396875" width="0.1524" layer="1"/>
-<wire x1="14.1684" y1="17.64396875" x2="13.28076875" y2="18.5316" width="0.1524" layer="1"/>
+<wire x1="19.14" y1="15.16" x2="48" y2="33.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX2">
 <contactref element="JP1" pad="9"/>
 <contactref element="RADIO" pad="3"/>
-<wire x1="48" y1="40.16" x2="40.015" y2="48.145" width="0.1524" layer="1"/>
-<wire x1="40.015" y1="48.145" x2="37.58" y2="48.145" width="0.1524" layer="1"/>
+<wire x1="35.04" y1="44.335" x2="48" y2="36.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX2">
 <contactref element="JP1" pad="10"/>
 <contactref element="RADIO" pad="4"/>
-<wire x1="48" y1="42.7" x2="40.555" y2="50.145" width="0.1524" layer="1"/>
-<wire x1="40.555" y1="50.145" x2="37.58" y2="50.145" width="0.1524" layer="1"/>
+<wire x1="35.04" y1="46.335" x2="48" y2="38.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX3">
 <contactref element="JP1" pad="11"/>
@@ -1045,10 +1029,12 @@ design rules under a new name.</description>
 <signal name="VREF">
 <contactref element="RADIO" pad="27"/>
 </signal>
-<signal name="N$1">
+<signal name="RF">
 <contactref element="RADIO" pad="36"/>
 <contactref element="J1" pad="1"/>
-<wire x1="46.99" y1="7.62" x2="15.76" y2="40.145" width="0" layer="19" extent="1-1"/>
+<wire x1="11.049" y1="6.731" x2="11.049" y2="35.179" width="0.3048" layer="1"/>
+<wire x1="11.049" y1="35.179" x2="12.7" y2="36.83" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="36.83" x2="13.22" y2="36.335" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
