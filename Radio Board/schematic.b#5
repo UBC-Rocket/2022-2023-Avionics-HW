@@ -1032,7 +1032,9 @@ design rules under a new name.</description>
 <signal name="RF">
 <contactref element="RADIO" pad="36"/>
 <contactref element="J1" pad="1"/>
-<wire x1="11.049" y1="6.731" x2="13.22" y2="36.335" width="0" layer="19" extent="1-1"/>
+<wire x1="11.049" y1="6.731" x2="11.049" y2="35.179" width="0.3048" layer="1"/>
+<wire x1="11.049" y1="35.179" x2="12.7" y2="36.83" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="36.83" x2="13.22" y2="36.335" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
