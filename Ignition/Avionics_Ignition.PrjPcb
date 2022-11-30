@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Avionics_Ignition
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=D71716B0-3A7E-4F63-9C39-E14D47222408
 VaultGUID=3c59613b-54a9-4f82-b837-2c7139316cf9
@@ -189,7 +189,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Avionics_Ignition
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
