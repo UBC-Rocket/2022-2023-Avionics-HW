@@ -2335,7 +2335,7 @@ CAP-10009- 50V, 10% (1206)</description>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X20" device="" package3d_urn="urn:adsk.eagle:package:6240777/1"/>
 <part name="GPS" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100pF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100pF"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="RADIO" library="XBP9X-DMRS-001" deviceset="XBP9X-DMRS-001" device=""/>
 <part name="J1" library="132134RP" deviceset="132134RP" device=""/>
@@ -2346,7 +2346,7 @@ CAP-10009- 50V, 10% (1206)</description>
 <part name="C5" library="SparkFun-Retired" deviceset="2.2UF-CER" device="CAP-10009" value="47uF"/>
 <part name="C6" library="SparkFun-Retired" deviceset="2.2UF-CER" device="CAP-10009" value="100uF"/>
 <part name="C7" library="SparkFun-Retired" deviceset="2.2UF-CER" device="CAP-10009" value="100uF"/>
-<part name="C1" library="SparkFun-Retired" deviceset="2.2UF-CER" device="CAP-10009" value="1uF"/>
+<part name="C2" library="SparkFun-Retired" deviceset="2.2UF-CER" device="CAP-10009" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2377,7 +2377,7 @@ control pins</text>
 <attribute name="VALUE" x="76.2" y="14.986" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="76.2" y="-15.748" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="15.24" y="66.04" smashed="yes">
+<instance part="C1" gate="G$1" x="15.24" y="66.04" smashed="yes">
 <attribute name="NAME" x="16.764" y="68.961" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="16.764" y="63.881" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -2418,7 +2418,7 @@ control pins</text>
 <attribute name="NAME" x="-36.576" y="68.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-36.576" y="63.881" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="5.08" y="66.04" smashed="yes">
+<instance part="C2" gate="G$1" x="5.08" y="66.04" smashed="yes">
 <attribute name="NAME" x="6.604" y="68.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="6.604" y="63.881" size="1.778" layer="96"/>
 </instance>
@@ -2447,7 +2447,7 @@ control pins</text>
 </segment>
 <segment>
 <wire x1="10.16" y1="76.2" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="10.16" y="71.12"/>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
@@ -2466,7 +2466,7 @@ control pins</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="71.12" x2="-38.1" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-27.94" y="71.12"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <junction x="5.08" y="71.12"/>
 </segment>
 <segment>
@@ -2497,7 +2497,7 @@ control pins</text>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <junction x="10.16" y="63.5"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -2514,7 +2514,7 @@ control pins</text>
 <junction x="-20.32" y="63.5"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <junction x="-27.94" y="63.5"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <junction x="5.08" y="63.5"/>
 </segment>
