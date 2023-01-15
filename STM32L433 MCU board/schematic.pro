@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/callu/Documents/EAGLE/projects/STM32L433 MCU board/schematic.brd
 
-Start at      : 21:55:31 (2022-11-20)
-End at        : 21:57:00 (2022-11-20)
-Elapsed time  : 00:01:27
+Start at      : 22:45:58 (2022-12-20)
+End at        : 22:47:43 (2022-12-20)
+Elapsed time  : 00:01:43
 
 Signals       :    53   RoutingGrid: 3 mil  Layers: 2
-Connections   :    92   predefined:  0 ( 0 Vias )
+Connections   :    94   predefined:  0 ( 0 Vias )
 
-Router memory :   3276000
+Router memory :   3146400
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:05  00:00:29  00:00:05  00:00:05  00:00:04  00:00:05  00:00:04  00:00:05  00:00:05  00:00:04  00:00:04  00:00:04  00:00:04  00:00:04
-Number of Ripups  :         0        41         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        27         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:05  00:00:41  00:00:05  00:00:06  00:00:05  00:00:05  00:00:04  00:00:05  00:00:05  00:00:05  00:00:04  00:00:04  00:00:05  00:00:04
+Number of Ripups  :         0        58         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         4         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        31         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        33        92        91        91        91        91        91        91        91        91        91        91        91        91
-Vias              :         0       124       115       102        97        93        91        87        82        78        78        77        76        76
-Resolution        :    35.9 %   100.0 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %
+Routed            :        33        94        93        94        94        94        94        94        94        94        94        94        94        94
+Vias              :         0       117       112       105       101        94        83        81        81        80        78        78        78        78
+Resolution        :    35.1 %   100.0 %    98.9 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 98.9% finished
+Final             : 100.0% finished

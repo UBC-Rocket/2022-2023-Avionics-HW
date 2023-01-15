@@ -19412,8 +19412,6 @@ verify pin connections</text>
 <text x="2.54" y="114.3" size="1.778" layer="91">TX out
 RX in</text>
 <text x="15.24" y="-27.94" size="1.778" layer="91">16 MHz XTAL</text>
-<text x="-35.56" y="132.08" size="1.778" layer="91">Potential pin changes:</text>
-<text x="-43.18" y="33.02" size="1.778" layer="91">Wired opposite for compliance with GPS board wiring</text>
 </plain>
 <instances>
 <instance part="JP3" gate="A" x="-86.36" y="55.88" smashed="yes" rot="R180">
@@ -19438,13 +19436,13 @@ RX in</text>
 <attribute name="NAME" x="-69.85" y="105.41" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-60.96" y="105.41" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="-40.64" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="-42.1386" y="100.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-37.338" y="100.33" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="-27.94" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.4386" y="100.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-24.638" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="-40.64" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="-42.1386" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-37.338" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="-27.94" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.4386" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-24.638" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="-78.74" y="91.44" smashed="yes">
 <attribute name="NAME" x="-82.55" y="92.9386" size="1.778" layer="95"/>
@@ -19602,8 +19600,8 @@ RX in</text>
 <label x="-71.12" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="83.82" x2="-40.64" y2="81.28" width="0.1524" layer="91"/>
-<label x="-40.64" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-27.94" y1="83.82" x2="-27.94" y2="81.28" width="0.1524" layer="91"/>
+<label x="-27.94" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -19740,9 +19738,9 @@ RX in</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PB2"/>
-<wire x1="40.64" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
-<label x="20.32" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PA4"/>
+<wire x1="40.64" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="22.86" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI1_SCK" class="0">
@@ -19804,8 +19802,8 @@ RX in</text>
 </net>
 <net name="LIPO" class="1">
 <segment>
-<wire x1="-40.64" y1="109.22" x2="-40.64" y2="111.76" width="0.1524" layer="91"/>
-<label x="-40.64" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-27.94" y1="109.22" x2="-27.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="-27.94" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -19942,12 +19940,12 @@ RX in</text>
 <net name="ANA_BATT_V" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="93.98" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="93.98" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="96.52" x2="-40.64" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="96.52" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-40.64" y="96.52"/>
-<label x="-27.94" y="96.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="-27.94" y1="96.52" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="96.52" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-27.94" y="96.52"/>
+<label x="-15.24" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX2" class="0">

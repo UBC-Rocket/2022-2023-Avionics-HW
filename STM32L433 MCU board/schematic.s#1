@@ -19412,8 +19412,8 @@ verify pin connections</text>
 <text x="2.54" y="114.3" size="1.778" layer="91">TX out
 RX in</text>
 <text x="15.24" y="-27.94" size="1.778" layer="91">16 MHz XTAL</text>
-<text x="-35.56" y="132.08" size="1.778" layer="91">Potential pin changes:</text>
-<text x="-43.18" y="33.02" size="1.778" layer="91">Wired opposite for compliance with GPS board wiring</text>
+<text x="-35.56" y="132.08" size="1.778" layer="91">Potential pin changes:
+BUZZ (PA4 is on something with USART2)</text>
 </plain>
 <instances>
 <instance part="JP3" gate="A" x="-86.36" y="55.88" smashed="yes" rot="R180">
