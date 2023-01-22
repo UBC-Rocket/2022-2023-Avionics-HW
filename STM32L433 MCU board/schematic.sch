@@ -19401,8 +19401,6 @@ control pins</text>
 </sheet>
 <sheet>
 <plain>
-<text x="111.76" y="38.1" size="1.778" layer="91">To-do:
-verify pin connections</text>
 <text x="10.16" y="48.26" size="1.778" layer="91">Sensor SPI</text>
 <text x="10.16" y="66.04" size="1.778" layer="91">Sensor I2C</text>
 <text x="7.62" y="15.24" size="1.778" layer="91">SD card SPI</text>
@@ -19412,7 +19410,6 @@ verify pin connections</text>
 <text x="2.54" y="114.3" size="1.778" layer="91">TX out
 RX in</text>
 <text x="15.24" y="-27.94" size="1.778" layer="91">16 MHz XTAL</text>
-<text x="-35.56" y="132.08" size="1.778" layer="91">Potential pin changes:</text>
 <text x="-43.18" y="33.02" size="1.778" layer="91">Wired opposite for compliance with GPS board wiring</text>
 </plain>
 <instances>
@@ -19646,6 +19643,25 @@ RX in</text>
 <pinref part="C8" gate="G$1" pin="-"/>
 <wire x1="101.6" y1="53.34" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <label x="101.6" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="GND"/>
+<wire x1="-7.62" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-25.4"/>
+<label x="-2.54" y="-25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<wire x1="12.7" y1="-25.4" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="22.86" y="-25.4"/>
+<label x="30.48" y="-25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -19949,6 +19965,13 @@ RX in</text>
 <junction x="-40.64" y="96.52"/>
 <label x="-27.94" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PC2"/>
+<wire x1="40.64" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+<label x="0" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TX2" class="0">
 <segment>
@@ -20068,27 +20091,6 @@ RX in</text>
 <wire x1="40.64" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-5.08" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="30.48" y="-17.78"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="GND"/>
-<wire x1="12.7" y1="-25.4" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="22.86" y="-25.4"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="GND"/>
-<wire x1="-7.62" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-25.4"/>
 </segment>
 </net>
 <net name="N$11" class="0">
