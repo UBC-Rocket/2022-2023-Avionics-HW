@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1053,27 +1053,31 @@ design rules under a new name.</description>
 </signal>
 <signal name="RX1">
 <contactref element="JP1" pad="7"/>
-<contactref element="GPS" pad="7"/>
-<wire x1="50.8" y1="34.578" x2="50.032" y2="33.81" width="0.1524" layer="1"/>
+<wire x1="50.032" y1="33.81" x2="50.8" y2="34.578" width="0.1524" layer="1"/>
 <wire x1="50.032" y1="33.81" x2="48" y2="33.81" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="34.578" x2="50.8" y2="57.15" width="0.1524" layer="1"/>
-<wire x1="40.894" y1="58.166" x2="39.624" y2="59.436" width="0.1524" layer="1"/>
-<wire x1="39.624" y1="59.436" x2="38.1" y2="59.436" width="0.1524" layer="1"/>
-<wire x1="38.1" y1="59.436" x2="37.338" y2="58.674" width="0.1524" layer="1"/>
-<wire x1="37.338" y1="58.674" x2="37.338" y2="54.6" width="0.1524" layer="1"/>
-<wire x1="37.338" y1="54.6" x2="38.772" y2="53.166" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="57.15" x2="49.784" y2="58.166" width="0.1524" layer="1"/>
-<wire x1="49.784" y1="58.166" x2="40.894" y2="58.166" width="0.1524" layer="1"/>
+<contactref element="GPS" pad="8"/>
+<wire x1="39.25596875" y1="61.9544" x2="38.28803125" y2="61.9544" width="0.1524" layer="1"/>
+<wire x1="40.50436875" y1="60.706" x2="39.25596875" y2="61.9544" width="0.1524" layer="1"/>
+<wire x1="50.8" y1="59.00398125" x2="49.09798125" y2="60.706" width="0.1524" layer="1"/>
+<wire x1="49.09798125" y1="60.706" x2="40.50436875" y2="60.706" width="0.1524" layer="1"/>
+<wire x1="50.8" y1="34.578" x2="50.8" y2="59.00398125" width="0.1524" layer="1"/>
+<wire x1="37.338" y1="60.96" x2="37.338" y2="51.562" width="0.1524" layer="1"/>
+<wire x1="37.338" y1="51.562" x2="38.274" y2="50.626" width="0.1524" layer="1"/>
+<wire x1="38.274" y1="50.626" x2="38.772" y2="50.626" width="0.1524" layer="1"/>
+<wire x1="38.28803125" y1="61.9544" x2="37.338" y2="61.00436875" width="0.1524" layer="1"/>
+<wire x1="37.338" y1="61.00436875" x2="37.338" y2="60.96" width="0.1524" layer="1"/>
 </signal>
 <signal name="TX1">
 <contactref element="JP1" pad="8"/>
-<contactref element="GPS" pad="5"/>
 <wire x1="49.812" y1="36.35" x2="48" y2="36.35" width="0.1524" layer="1"/>
 <wire x1="49.812" y1="36.35" x2="50.457471875" y2="36.995471875" width="0.1524" layer="1"/>
-<wire x1="50.457471875" y1="36.995471875" x2="50.457471875" y2="57.061471875" width="0.1524" layer="1"/>
-<wire x1="50.457471875" y1="57.061471875" x2="49.65774375" y2="57.8612" width="0.1524" layer="1"/>
-<wire x1="39.1568" y1="57.8612" x2="38.772" y2="58.246" width="0.1524" layer="1"/>
-<wire x1="49.65774375" y1="57.8612" x2="39.1568" y2="57.8612" width="0.1524" layer="1"/>
+<contactref element="GPS" pad="4"/>
+<wire x1="49.172325" y1="60.2006" x2="46.827675" y2="60.2006" width="0.1524" layer="1"/>
+<wire x1="46.827675" y1="60.2006" x2="46.825075" y2="60.198" width="0.1524" layer="1"/>
+<wire x1="50.457471875" y1="58.915453125" x2="49.172325" y2="60.2006" width="0.1524" layer="1"/>
+<wire x1="39.36" y1="60.198" x2="38.772" y2="60.786" width="0.1524" layer="1"/>
+<wire x1="50.457471875" y1="36.995471875" x2="50.457471875" y2="58.915453125" width="0.1524" layer="1"/>
+<wire x1="46.825075" y1="60.198" x2="39.36" y2="60.198" width="0.1524" layer="1"/>
 </signal>
 <signal name="RX2">
 <contactref element="JP1" pad="9"/>

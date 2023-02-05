@@ -2561,9 +2561,9 @@ control pins</text>
 <label x="12.7" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="5.08" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
-<label x="53.34" y="5.08" size="1.778" layer="95"/>
-<pinref part="GPS" gate="J1" pin="8"/>
+<pinref part="GPS" gate="J1" pin="7"/>
+<wire x1="48.26" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<label x="50.8" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX1" class="0">
@@ -2573,9 +2573,9 @@ control pins</text>
 <label x="17.78" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
-<label x="53.34" y="-5.08" size="1.778" layer="95"/>
-<pinref part="GPS" gate="J1" pin="4"/>
+<pinref part="GPS" gate="J1" pin="5"/>
+<wire x1="48.26" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
+<label x="53.34" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX2" class="0">
