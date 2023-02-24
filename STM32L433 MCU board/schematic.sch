@@ -18978,69 +18978,74 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ECS-160-10-37B2-JTN-TR">
+<library name="ABS25-32.768KHZ-6-T">
 <packages>
-<package name="XTAL_ECS-160-10-37B2-JTN-TR">
-<wire x1="-0.8" y1="-1" x2="-0.8" y2="1" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.127" layer="51"/>
-<wire x1="0.8" y1="1" x2="0.8" y2="-1" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.15" y1="1.35" x2="-1.15" y2="-1.35" width="0.05" layer="39"/>
-<wire x1="-1.15" y1="-1.35" x2="1.15" y2="-1.35" width="0.05" layer="39"/>
-<wire x1="1.15" y1="-1.35" x2="1.15" y2="1.35" width="0.05" layer="39"/>
-<wire x1="1.15" y1="1.35" x2="-1.15" y2="1.35" width="0.05" layer="39"/>
-<circle x="-1.5" y="0.675" radius="0.1" width="0.2" layer="21"/>
-<circle x="-1.5" y="0.675" radius="0.1" width="0.2" layer="51"/>
-<text x="-1.15" y="1.5" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.15" y="-1.5" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-0.525" y="0.675" dx="0.75" dy="0.85" layer="1"/>
-<smd name="4" x="0.525" y="0.675" dx="0.75" dy="0.85" layer="1"/>
-<smd name="2" x="-0.525" y="-0.675" dx="0.75" dy="0.85" layer="1"/>
-<smd name="3" x="0.525" y="-0.675" dx="0.75" dy="0.85" layer="1"/>
+<package name="XTAL_ABS25-32.768KHZ-6-T">
+<wire x1="-1.9" y1="4" x2="1.9" y2="4" width="0.127" layer="51"/>
+<wire x1="1.9" y1="4" x2="1.9" y2="-4" width="0.127" layer="51"/>
+<wire x1="1.9" y1="-4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
+<wire x1="-1.9" y1="-4" x2="-1.9" y2="4" width="0.127" layer="51"/>
+<wire x1="1.9" y1="3.65" x2="1.9" y2="4" width="0.127" layer="21"/>
+<wire x1="1.9" y1="4" x2="-1.9" y2="4" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="4" x2="-1.9" y2="3.65" width="0.127" layer="21"/>
+<wire x1="1.9" y1="1.85" x2="1.9" y2="-1.85" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.85" x2="-1.9" y2="-1.85" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-3.65" x2="-1.9" y2="-4" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-4" x2="1.9" y2="-4" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-4" x2="1.9" y2="-3.65" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="4.25" x2="2.8" y2="4.25" width="0.05" layer="39"/>
+<wire x1="2.8" y1="4.25" x2="2.8" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="2.8" y1="-4.25" x2="-2.8" y2="-4.25" width="0.05" layer="39"/>
+<wire x1="-2.8" y1="-4.25" x2="-2.8" y2="4.25" width="0.05" layer="39"/>
+<circle x="-3.1" y="2.8" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.1" y="2.8" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.95" y="4.37" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.15" y="-5.67" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.6" y="2.75" dx="1.3" dy="1.9" layer="1" rot="R270"/>
+<smd name="2" x="-1.6" y="-2.75" dx="1.3" dy="1.9" layer="1" rot="R270"/>
+<smd name="3" x="1.6" y="-2.75" dx="1.3" dy="1.9" layer="1" rot="R270"/>
+<smd name="4" x="1.6" y="2.75" dx="1.3" dy="1.9" layer="1" rot="R270"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ECS-160-10-37B2-JTN-TR">
-<wire x1="-1.397" y1="2.54" x2="1.397" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="2.54" x2="1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="-2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-1.397" y1="2.54" x2="-1.397" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="2.3368" y1="2.54" x2="2.3368" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-2.3368" y1="2.54" x2="-2.3368" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="-3.175" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="-3.175" x2="0" y2="-3.175" width="0.4064" layer="94"/>
-<wire x1="0" y1="-3.175" x2="3.175" y2="-3.175" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="-3.175" x2="3.175" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.175" width="0.4064" layer="94"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<symbol name="ABS25-32.768KHZ-6-T">
+<wire x1="-1.27" y1="1.524" x2="1.27" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.524" x2="-1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54233125" y="3.17791875" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.543790625" y="-5.08758125" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ECS-160-10-37B2-JTN-TR" prefix="Y">
-<description> &lt;a href="https://pricing.snapeda.com/parts/ECS-160-10-37B2-JTN-TR/ECS%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<deviceset name="ABS25-32.768KHZ-6-T" prefix="Y">
+<description>ABS25 Series 32.768 kHz ±20 ppm 6 pF -40 to +85 °C SMT Low Frequency Crystal &lt;a href="https://pricing.snapeda.com/parts/ABS25-32.768KHZ-6-T/Abracon/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ECS-160-10-37B2-JTN-TR" x="0" y="0"/>
+<gate name="G$1" symbol="ABS25-32.768KHZ-6-T" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XTAL_ECS-160-10-37B2-JTN-TR">
+<device name="" package="XTAL_ABS25-32.768KHZ-6-T">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Crystal 16MHz ±20ppm (Tol) ±20ppm (Stability) 10pF FUND 150Ohm 4-Pin Mini-CSMD T/R "/>
-<attribute name="MF" value="ECS Inc."/>
-<attribute name="MP" value="ECS-160-10-37B2-JTN-TR"/>
-<attribute name="PACKAGE" value="None"/>
+<attribute name="DESCRIPTION" value=" 32.768 kHz ±20ppm Crystal 6pF 50 kOhms 4-SOJ, 5.50mm pitch "/>
+<attribute name="MF" value="Abracon"/>
+<attribute name="MP" value="ABS25-32.768KHZ-6-T"/>
+<attribute name="PACKAGE" value="4-4 Abracon"/>
 <attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-160-10-37B2-JTN-TR/?ref=eda"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ABS25-32.768KHZ-6-T/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -19048,72 +19053,74 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ABS04W-32.768KHZ-6-D2-T5">
+<library name="ECS-160-S-5PX-TR">
 <packages>
-<package name="XTAL_ABS04W-32.768KHZ-6-D2-T5">
-<wire x1="-0.5" y1="0.6" x2="0.5" y2="0.6" width="0.127" layer="51"/>
-<wire x1="0.5" y1="0.6" x2="0.5" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="0.6" x2="-0.5" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-0.6" x2="-0.5" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-0.82" y1="0.92" x2="0.82" y2="0.92" width="0.05" layer="39"/>
-<wire x1="-0.82" y1="0.92" x2="-0.82" y2="-0.92" width="0.05" layer="39"/>
-<wire x1="0.82" y1="0.92" x2="0.82" y2="-0.92" width="0.05" layer="39"/>
-<wire x1="0.82" y1="-0.92" x2="-0.82" y2="-0.92" width="0.05" layer="39"/>
-<text x="-0.82" y="1.12" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.82" y="-1.12" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-1.32" y="0.41" radius="0.1" width="0.2" layer="21"/>
-<circle x="-1.32" y="0.41" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-0.335" y="0.41" dx="0.47" dy="0.52" layer="1"/>
-<smd name="2" x="-0.335" y="-0.41" dx="0.47" dy="0.52" layer="1"/>
-<smd name="3" x="0.335" y="-0.41" dx="0.47" dy="0.52" layer="1"/>
-<smd name="4" x="0.335" y="0.41" dx="0.47" dy="0.52" layer="1"/>
+<package name="XTAL_ECS-160-S-5PX-TR">
+<wire x1="-5.7" y1="2.4" x2="-5.7" y2="-2.4" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="-2.4" x2="5.7" y2="-2.4" width="0.127" layer="51"/>
+<wire x1="5.7" y1="-2.4" x2="5.7" y2="2.4" width="0.127" layer="51"/>
+<wire x1="5.7" y1="2.4" x2="-5.7" y2="2.4" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="1.254" x2="-5.7" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="2.4" x2="5.7" y2="2.4" width="0.127" layer="21"/>
+<wire x1="5.7" y1="2.4" x2="5.7" y2="1.254" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-1.254" x2="5.7" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-2.4" x2="-5.7" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-2.4" x2="-5.7" y2="-1.254" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="2.65" x2="5.95" y2="2.65" width="0.05" layer="39"/>
+<wire x1="5.95" y1="2.65" x2="5.95" y2="1.25" width="0.05" layer="39"/>
+<wire x1="5.95" y1="1.25" x2="7.75" y2="1.25" width="0.05" layer="39"/>
+<wire x1="7.75" y1="1.25" x2="7.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="7.75" y1="-1.25" x2="5.95" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="5.95" y1="-1.25" x2="5.95" y2="-2.65" width="0.05" layer="39"/>
+<wire x1="5.95" y1="-2.65" x2="-5.95" y2="-2.65" width="0.05" layer="39"/>
+<wire x1="-5.95" y1="-2.65" x2="-5.95" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-5.95" y1="-1.25" x2="-7.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-7.75" y1="-1.25" x2="-7.75" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-7.75" y1="1.25" x2="-5.95" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-5.95" y1="1.25" x2="-5.95" y2="2.65" width="0.05" layer="39"/>
+<text x="-5.538140625" y="3.049990625" size="1.003290625" layer="25">&gt;NAME</text>
+<text x="-5.50643125" y="-4.00468125" size="1.00116875" layer="27">&gt;VALUE</text>
+<smd name="1" x="-4.75" y="0" dx="5.5" dy="2" layer="1"/>
+<smd name="2" x="4.75" y="0" dx="5.5" dy="2" layer="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ABS04W-32.768KHZ-6-D2-T5">
-<wire x1="-1.397" y1="5.08" x2="1.397" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="5.08" x2="1.397" y2="0" width="0.4064" layer="94"/>
-<wire x1="1.397" y1="0" x2="-1.397" y2="0" width="0.4064" layer="94"/>
-<wire x1="-1.397" y1="5.08" x2="-1.397" y2="0" width="0.4064" layer="94"/>
-<wire x1="2.3368" y1="5.08" x2="2.3368" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.3368" y1="5.08" x2="-2.3368" y2="0" width="0.4064" layer="94"/>
-<text x="-5.0878" y="8.89585" size="1.78073125" layer="95">&gt;NAME</text>
-<text x="-5.094390625" y="-10.16" size="1.78303125" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="GND" x="7.62" y="-5.08" length="short" direction="pwr" rot="R180"/>
-<pin name="NC" x="7.62" y="-2.54" length="short" direction="nc" rot="R180"/>
+<symbol name="ECS-160-S-5PX-TR">
+<text x="-5.086890625" y="3.81516875" size="1.780409375" layer="95">&gt;NAME</text>
+<text x="-5.090309375" y="-5.090309375" size="1.7816" layer="96">&gt;VALUE</text>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ABS04W-32.768KHZ-6-D2-T5" prefix="Y">
-<description> &lt;a href="https://pricing.snapeda.com/parts/ABS04W-32.768KHZ-6-D2-T5/Abracon%20LLC/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<deviceset name="ECS-160-S-5PX-TR" prefix="Y">
+<description>CRYSTAL SMD &lt;a href="https://pricing.snapeda.com/parts/ECS-160-S-5PX-TR/ECS%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ABS04W-32.768KHZ-6-D2-T5" x="0" y="0"/>
+<gate name="G$1" symbol="ECS-160-S-5PX-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XTAL_ABS04W-32.768KHZ-6-D2-T5">
+<device name="" package="XTAL_ECS-160-S-5PX-TR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 32.768 kHz ±20ppm Crystal 6pF 130 kOhms 4-SMD, No Lead "/>
-<attribute name="MF" value="Abracon LLC"/>
-<attribute name="MP" value="ABS04W-32.768KHZ-6-D2-T5"/>
-<attribute name="PACKAGE" value="SMD-4 Abracon LLC"/>
+<attribute name="DESCRIPTION" value=" 16 MHz ±30ppm Crystal Series 40 Ohms HC-49/US "/>
+<attribute name="MF" value="ECS Inc."/>
+<attribute name="MP" value="ECS-160-S-5PX-TR"/>
+<attribute name="PACKAGE" value="HC49/US ECS International"/>
 <attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ABS04W-32.768KHZ-6-D2-T5/?ref=eda"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-160-S-5PX-TR/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -19156,13 +19163,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="U2" library="STM32L476RCT6" deviceset="STM32L476RCT6" device=""/>
-<part name="Y1" library="ECS-160-10-37B2-JTN-TR" deviceset="ECS-160-10-37B2-JTN-TR" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="8pF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="8pF"/>
-<part name="Y2" library="ABS04W-32.768KHZ-6-D2-T5" deviceset="ABS04W-32.768KHZ-6-D2-T5" device=""/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="7pF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="7pF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6pF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="6pF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="B45181B" package3d_urn="urn:adsk.eagle:package:23320/1" value="100uF"/>
+<part name="Y2" library="ABS25-32.768KHZ-6-T" deviceset="ABS25-32.768KHZ-6-T" device=""/>
+<part name="Y3" library="ECS-160-S-5PX-TR" deviceset="ECS-160-S-5PX-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19409,7 +19416,7 @@ control pins</text>
 <text x="10.16" y="25.4" size="1.778" layer="91">GPS USART</text>
 <text x="2.54" y="114.3" size="1.778" layer="91">TX out
 RX in</text>
-<text x="15.24" y="-27.94" size="1.778" layer="91">16 MHz XTAL</text>
+<text x="12.7" y="-27.94" size="1.778" layer="91">16 MHz XTAL</text>
 <text x="-43.18" y="33.02" size="1.778" layer="91">Wired opposite for compliance with GPS board wiring</text>
 </plain>
 <instances>
@@ -19491,10 +19498,6 @@ RX in</text>
 <attribute name="NAME" x="45.957" y="132.4148" size="1.271440625" layer="95"/>
 <attribute name="VALUE" x="46.4574" y="-9.5175" size="1.272159375" layer="96"/>
 </instance>
-<instance part="Y1" gate="G$1" x="22.86" y="-17.78" smashed="yes">
-<attribute name="NAME" x="17.78" y="-11.43" size="1.778" layer="95"/>
-<attribute name="VALUE" x="17.78" y="-13.97" size="1.778" layer="96"/>
-</instance>
 <instance part="C4" gate="G$1" x="30.48" y="-20.32" smashed="yes">
 <attribute name="NAME" x="32.004" y="-19.939" size="1.778" layer="95"/>
 <attribute name="VALUE" x="32.004" y="-25.019" size="1.778" layer="96"/>
@@ -19502,10 +19505,6 @@ RX in</text>
 <instance part="C5" gate="G$1" x="12.7" y="-20.32" smashed="yes">
 <attribute name="NAME" x="14.224" y="-19.939" size="1.778" layer="95"/>
 <attribute name="VALUE" x="14.224" y="-25.019" size="1.778" layer="96"/>
-</instance>
-<instance part="Y2" gate="G$1" x="-15.24" y="-7.62" smashed="yes">
-<attribute name="NAME" x="-20.3278" y="1.27585" size="1.78073125" layer="95"/>
-<attribute name="VALUE" x="-20.334390625" y="-17.78" size="1.78303125" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="-22.86" y="-20.32" smashed="yes">
 <attribute name="NAME" x="-21.336" y="-19.939" size="1.778" layer="95"/>
@@ -19518,6 +19517,14 @@ RX in</text>
 <instance part="C8" gate="G$1" x="101.6" y="58.42" smashed="yes">
 <attribute name="NAME" x="102.616" y="59.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.616" y="54.229" size="1.778" layer="96"/>
+</instance>
+<instance part="Y2" gate="G$1" x="-12.7" y="-10.16" smashed="yes">
+<attribute name="NAME" x="-15.24233125" y="-6.98208125" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-15.243790625" y="-15.24758125" size="1.778" layer="96"/>
+</instance>
+<instance part="Y3" gate="G$1" x="20.32" y="-10.16" smashed="yes">
+<attribute name="NAME" x="15.233109375" y="-6.34483125" size="1.780409375" layer="95"/>
+<attribute name="VALUE" x="15.229690625" y="-15.250309375" size="1.7816" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19647,21 +19654,14 @@ RX in</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="GND"/>
-<wire x1="-7.62" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-25.4"/>
-<label x="-2.54" y="-25.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="-22.86" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-2.54" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="GND"/>
-<wire x1="12.7" y1="-25.4" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="22.86" y="-25.4"/>
-<label x="30.48" y="-25.4" size="1.778" layer="95" xref="yes"/>
+<label x="30.48" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -20074,46 +20074,49 @@ RX in</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="12.7" y="-17.78"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PH0/OSC_IN"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="Y3" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="12.7" y="-10.16"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="Y1" gate="G$1" pin="3"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PH1/OSC_OUT"/>
 <wire x1="40.64" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-5.08" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="30.48" y="-17.78"/>
+<wire x1="30.48" y1="-5.08" x2="30.48" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="Y3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-10.16" x2="30.48" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="30.48" y="-10.16"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-5.08"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PC15/OSC32_OUT"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="4"/>
+<wire x1="-7.62" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-10.16"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="Y2" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-5.08" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-22.86" y="-5.08"/>
+<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PC14/OSC32_IN"/>
+<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="-10.16" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-10.16"/>
 </segment>
 </net>
 </nets>
